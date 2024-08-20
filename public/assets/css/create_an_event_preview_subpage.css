@@ -1,0 +1,20 @@
+.event-preview-subpage-container {
+    border-bottom: none;
+}
+
+.create-an-event-preview-event-subpage-container,
+.signup-title-container {
+    padding-bottom: 30px;
+}
+
+.create-an-event-preview-event-subpage-container .honey-comb-divider,
+.signup-title-container .honey-comb-divider {
+    margin-top: 5px;
+    width: 80px;
+    height: 8px;
+}
+
+.preview-event-subpage-title,
+.signup-title {
+    font-size: 40px;
+}

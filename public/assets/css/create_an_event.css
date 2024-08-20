@@ -1,0 +1,300 @@
+.create-an-event-hero-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.create-an-event-hero-left-container {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.create-an-event-hero-left-container .honey-comb-divider {
+    position: relative;
+    left: 8px;
+}
+
+.create-an-event-hero-left-container .point-to-create-an-event-form {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 18%;
+    right: 10%;
+}
+
+.create-an-event-hero-title-container {
+    width: 300px;
+    height: 75vh;
+    margin-top: 80px;
+}
+
+.create-an-event-hero-title {
+    line-height: 120%;
+}
+
+.create-an-event-hero-right-container {
+    width: 100%;
+    border-left: 2px solid var(--pitch-black);
+}
+
+.create-an-event-hero-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.create-an-event-form-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.create-an-event-form {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.create-an-event-form input,
+.create-an-event-form select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.create-an-event-form label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.create-an-event-form-top-nav-container {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.create-an-event-form-top-nav-container-left-container .pitch-black-divider {
+    margin-top: 10px;
+    width: 80px;
+    height: 5px;
+}
+
+.create-an-event-form-title-description {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.form-top-nav-list {
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.create-an-event-form-basic-info-container,
+.create-an-event-form-location-info-container,
+.create-an-event-form-date-and-time-info-container,
+.create-an-event-form-event-media-info-container,
+.create-an-event-form-summary-info-container,
+.create-event-form-description-info-container,
+.create-event-form-ticket-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.basic-info-left-container,
+.location-info-left-container,
+.date-and-time-info-left-container,
+.event-media-info-left-container,
+.summary-info-left-container,
+.description-info-left-container,
+.ticket-info-left-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.basic-info-left-container img,
+.location-info-left-container img,
+.date-and-time-info-right-container img,
+.event-media-info-left-container img,
+.summary-info-left-container img,
+.description-info-left-container img,
+.ticket-info-left-container img {
+    margin-top: 4px;
+}
+
+.form-basic-info-title,
+.form-location-info-title,
+.form-date-and-time-info-title,
+.form-event-media-info-title,
+.form-summary-info-title,
+.form-description-info-title,
+.form-ticket-info-title {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.basic-info-left-container .honey-comb-divider,
+.location-info-left-container .honey-comb-divider,
+.date-and-time-info-left-container .honey-comb-divider,
+.event-media-info-left-container .honey-comb-divider,
+.summary-info-left-container .honey-comb-divider,
+.description-info-left-container .honey-comb-divider,
+.ticket-info-left-container .honey-comb-divider {
+    position: absolute;
+    left: 40px;
+    bottom: -10px;
+    height: 5px;
+    width: 50px;
+}
+
+.basic-info-right-container,
+.location-info-right-container,
+.date-and-time-info-right-container,
+.event-media-info-right-container,
+.summary-info-right-container,
+.description-info-right-container,
+.ticket-info-right-container {
+    position: relative;
+    width: 600px;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 25px;
+}
+
+.basic-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 22%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.location-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 52%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.date-and-time-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 64%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.event-media-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 58%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.summary-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 64%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.description-info-right-container .pitch-black-divider {
+    position: absolute;
+    left: 64%;
+    bottom: 8px;
+    height: 5px;
+    width: 50px;
+}
+
+.ticket-info-right-container .pitch-black-divider {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    height: 5px;
+    width: 50px;
+}
+
+.type-and-category-container,
+.event-start-and-start-time-container,
+.event-end-and-end-time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.type-container,
+.category-container {
+    width: 100%;
+}
+
+.basic-info-event-title {
+    width: 100%;
+}
+
+.basic-info-type {
+    width: 90%;
+}
+
+.basic-info-category {
+    width: 100%;
+}
+
+.location-info-venue-location-name {
+    width: 100%;
+}
+
+.event-start-and-start-time-container,
+.event-end-and-end-time-container {
+    width: 100%;
+}
+
+.event-start-container,
+.event-end-container,
+.start-time-container,
+.end-time-container {
+    width: 100%;
+}
+
+.event-start,
+.event-end {
+    width: 90%;
+}
+
+.start-time,
+.end-time {
+    width: 100%;
+}
+
+.save-and-next-btn-container {
+    position: absolute;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    padding: 40px 0;
+}
+
+.create-an-event-save-btn,
+.create-an-event-next-btn {
+    padding: 20px 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 2px solid var(--pitch-black);
+}

@@ -1,0 +1,57 @@
+.paid-or-free-container {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.ticket-name-text-count-container {
+    margin-top: -10px;
+    padding-bottom: 15px;
+}
+
+.paid-or-free-container button {
+    font-size: 20px;
+}
+
+.price-input-container {
+    position: relative;
+}
+
+.price-input-container img {
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+}
+
+.price-input {
+    padding-left: 45px;
+}
+
+.ticket-info-bottom-container {
+    width: 400px;
+}
+
+.ticket-info-bottom-container input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ticket-info-truncated-container {
+    width: 620px;
+}
+
+.ticket-info-bottom-large-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-info-image {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ticket-info-truncated-container {
+    border: 2px solid var(--pitch-black);
+}

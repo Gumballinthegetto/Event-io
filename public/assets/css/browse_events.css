@@ -1,0 +1,349 @@
+.search-bar {
+    margin-top: -15px;
+    padding-bottom: 25px;
+}
+
+.search-bar-icon {
+    position: relative;
+    top: 50px;
+    left: 55px;
+    width: 50px;
+    height: 40px;
+    padding-right: 10px;
+    border-right: 2px solid var(--pitch-black);
+}
+
+.search-bar-input {
+    display: block;
+    width: 95%;
+    height: 55px;
+    border: 2px solid var(--pitch-black);
+    border-radius: 10px;
+    padding-left: 80px;
+    font-size: 22px;
+    font-family: var(--main-font);
+    margin: 0 auto;
+}
+
+.search-bar-input::placeholder {
+    position: relative;
+    font-size: 22px;
+    font-family: var(--main-font);
+    color: var(--pitch-black);
+}
+
+.happening-now-banner {
+    border-top: 2px solid var(--pitch-black);
+}
+
+.happening-now-banner-icon {
+    position: relative;
+    top: 2px;
+    right: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.happening-now-banner-text {
+    position: relative;
+    bottom: 5px;
+    font-family: var(--secondary-font);
+    font-size: 22px;
+}
+
+.happening-now {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.happening-now-text {
+    padding: 60px 65px 0 60px;
+}
+
+.point-to-happening-now-slider {
+    position: absolute;
+    right: 5%;
+    top: 19%;
+}
+
+.happening-now-slider-container {
+    position: relative;
+    height: 780px;
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.happening-now-slider-title-container {
+    position: absolute;
+    top: -40px;
+    right: 5%;
+    max-width: 538px;
+    max-height: 128px;
+}
+
+.happening-now-slider-title-container .large-100 {
+    position: absolute;
+    top: 72%;
+    left: 20%;
+}
+
+.happening-now-slider-index {
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.happening-now-slider-left {
+    position: absolute;
+    left: 68px;
+}
+
+.happening-now-slider-thumbnail img {
+    position: relative;
+    top: 100px;
+    left: 57%;
+    height: 550px;
+    width: 550px;
+    border: 2px solid var(--pitch-black);
+}
+
+.happening-now-slider-detail-container {
+    position: relative;
+    bottom: 58%;
+    left: 17%;
+    font-size: 35px;
+    font-weight: 400;
+    width: 550px;
+    line-height: 130%;
+}
+
+.happening-now-slider-detail-container .more-detail {
+    position: absolute;
+    right: 0;
+    padding-top: 40px;
+    font-size: 25px;
+    width: 350px;
+    line-height: normal;
+}
+
+.happening-now-slider-button {
+    position: relative;
+    bottom: 38%;
+    left: 75px;
+    width: 720px;
+    height: 82px;
+    background-color: var(--mild-latte);
+    border: 2px solid var(--pitch-black);
+    border-radius: 10px;
+}
+
+.happening-now-slider-button-enter {
+    position: absolute;
+    left: 37%;
+    bottom: 24px;
+    font-size: 30px;
+}
+
+.happening-now-slider-button img {
+    position: absolute;
+    bottom: -10px;
+    left:55%;
+    width: 100px;
+    height: 100px;
+}
+
+.happening-now-slider-back-button,
+.happening-now-slider-next-button {
+    position: relative;
+    top: -100px;
+    left: 75px;
+    width: 120px;
+    height: 70px;
+    background-color: var(--mild-latte);
+    border: 2px solid var(--pitch-black);
+    border-radius: 5px;
+}
+
+.happening-now-slider-next-button {
+    left: 37%;
+    margin-left: 18px;
+}
+
+.happening-now-slider-back-button img {
+    transform: rotate(-180deg);
+}
+
+.happening-now-slider-back-button img,
+.happening-now-slider-next-button img {
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    width: 40px;
+    height: 40px;
+}
+
+.happening-now-slider-next-button img {
+    left: 68%;
+}
+
+.happening-now-slider-back-button-text,
+.happening-now-slider-next-button-text {
+    position: absolute;
+    left: 40px;
+    bottom: 22px;
+    font-size: 20px;
+}
+
+.happening-now-slider-next-button-text {
+    left: 25px;
+}
+
+.browse-events-title-container {
+    position: relative;
+    bottom: 20px;
+    left: 75px;
+}
+
+.browse-events-title-location-position {
+    position: absolute;
+    top: 0;
+    left: 24%;    
+}
+
+.browse-events-title-location-icon {
+    position: absolute;
+    top: 5px;
+    left: 19%;
+    width: 50px;
+    height: 50px;
+}
+
+.browse-events-title-location-text {
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+}
+
+.browse-events-date-selector {
+    position: relative;
+    left: 75px;
+    top: 5px;
+}
+
+.browse-events-date-selector .drop-down-date {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    border: 2px solid var(--pitch-black);
+    border-radius: 5px;
+}
+
+.browse-events-container {
+    height: auto;
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    column-gap: 80px;
+    row-gap: 70px;
+}
+
+.box {
+    position: relative;
+    width: 605px;
+    height: 300px;
+    background-color: var(--bright-white);
+    border: 2px solid var(--pitch-black);
+}
+
+.box-thumbnail {
+    width: 300px;
+    height: 300px;
+}
+
+.box-thumbnail img {
+    margin-top: 1px;
+    width: 100%;
+    height: 294px;
+    border-right: 2px solid var(--pitch-black);
+}
+
+.box-description {
+    position: absolute;
+    max-width: 260px;
+    top: 0;
+    left: 53%;
+    height: 294px;
+}
+
+.box-description-title,
+.box-description-date {
+    padding: 10px 0;
+}
+
+.box-description-detail {
+    font-size: 1.125rem;
+    padding: 25px 0 42px 0;
+}
+
+.box-description-user {
+    position: absolute;
+    bottom: 18px;
+    right: 102px;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.box-description-heart-button {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    border-left: 2px solid var(--pitch-black);
+    border-top: 2px solid var(--pitch-black);
+    border-bottom: 0;
+    border-right: 0;
+    background-color: var(--bright-white);
+    border-top-left-radius: 10px;
+}
+
+.box-description-heart-button img {
+    width: 25px;
+    height: 25px;
+}
+
+.box-description-user-underline {
+    position: absolute;
+    bottom: 12px;
+    right: 17%;
+}
+
+.browse-events-load-more-button {
+    margin: 60px 0;
+    margin-left: 70px;
+    width: 263px;
+    height: 60px;
+    border: 2px solid var(--pitch-black);
+    border-radius: 5px;
+    background-color: var(--mild-latte);
+}
+
+.browse-events-load-more-icon {
+    position: relative;
+    top: 6px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.browse-events-load-more-text {
+    font-size: 25px;
+    font-family: var(--main-font);
+}

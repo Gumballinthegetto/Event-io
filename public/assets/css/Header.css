@@ -1,0 +1,126 @@
+.container {
+    font-family: var(--secondary-font);
+    width: 100%;
+    height: 210px;
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.navbar-container {
+    position: relative;
+    font-family: var(--secondary-font);
+    width: 100%;
+    height: fit-content;
+}
+
+.flow-banner {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: var(--honey-comb);
+    border-bottom: 2px solid var(--pitch-black);
+}
+
+.slogan-icon {
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.slogan {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    width: 360px;
+    height: 150px;
+    border-right: 2px solid var(--pitch-black);
+}
+
+.full-link {
+    width: 360px;
+    height: 150px;
+}
+
+.name-logo {
+    position: absolute;
+    bottom: 0;
+    padding: 18px 50px;
+    font-size: 22px;
+    border-top: 2px solid var(--pitch-black);
+    border-right: 2px solid var(--pitch-black);
+}
+
+.logo {
+    position: relative;
+    left: 60%;
+    top: 1px;
+    bottom: 20px;
+}
+
+.logo img {
+    margin-left: 15px;
+    width: 120px;
+    height: 128px;
+}
+
+.logo-slogan {
+    position: absolute;
+    left: 22px;
+    bottom: 0;
+    font-size: 8px;
+}
+
+.browse-events,
+.create-an-event {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-size: 22px;
+}
+
+.last-nav-link {
+    position: relative;
+}
+
+.not-yet-login {
+    position: relative;
+    top: 72%;
+    font-size: 22px;
+    padding: 18px 50px;
+    border-top: 2px solid var(--pitch-black);
+    border-right: 2px solid var(--pitch-black);
+
+}
+
+.not-yet-login-icon img {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.already-login {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 2px solid var(--pitch-black);
+    border-left: none;
+    border-bottom: none;
+}
+
+.already-login-icon img {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+}
